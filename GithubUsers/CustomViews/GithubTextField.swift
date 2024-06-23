@@ -31,8 +31,10 @@ class GithubTextField: UITextField {
         tintColor = .label
         adjustsFontSizeToFitWidth = true
         minimumFontSize = 12
+        textAlignment = .center
         backgroundColor = .tertiarySystemBackground
         placeholder = "Enter a username"
+        returnKeyType = .go
         
         // Disable autocorrect
         autocorrectionType = .no
